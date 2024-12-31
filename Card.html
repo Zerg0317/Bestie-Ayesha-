@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy New Year, Ayesha!</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to right, #ff9a9e, #fad0c4, #fbc2eb);
+            overflow: hidden;
+            color: #fff;
+        }
+        .container {
+            text-align: center;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .message {
+            font-size: 2rem;
+            margin: 20px 0;
+            animation: typing 4s steps(40, end), blink 0.5s step-end infinite;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 4px solid;
+            width: 0;
+        }
+        @keyframes typing {
+            from { width: 0 }
+            to { width: 100% }
+        }
+        @keyframes blink {
+            50% { border-color: transparent }
+        }
+        .compliments {
+            margin-top: 20px;
+            font-size: 1.2rem;
+            animation: fadeInUp 3s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .footer {
+            font-size: 1rem;
+            margin-top: 20px;
+            opacity: 0.8;
+            animation: fadeIn 3s 2s ease-in-out forwards;
+        }
+        .nickname {
+            margin-top: 20px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #ffd700;
+            animation: fadeInUp 4s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Happy New Year, Ayesha! 🎉</h1>
+        <div class="message">Thank you for being in my life!</div>
+        <div class="compliments">
+            Your presence, loyalty, and the way you treat me always make me feel special. 💕<br>
+            Last year, we went through so much, but In Shaa Allah, the coming year will bring us both happiness.<br>
+            Spending time with you is one of my favorite things, and I cherish all the memories we've made. 😊
+        </div>
+        <div class="footer">
+            Wishing you a year full of love, joy, and endless possibilities! 🌟<br>
+        </div>
+        <div class="nickname">With love, Ummuuu 💌</div>
+    </div>
+</body>
+</html>
